@@ -1,4 +1,4 @@
-package pl.akademiaqa.dto.response;
+package pl.akademiaqa.dto.task.response;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Getter;

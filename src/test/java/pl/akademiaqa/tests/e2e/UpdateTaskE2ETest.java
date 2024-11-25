@@ -1,15 +1,13 @@
 package pl.akademiaqa.tests.e2e;
 
 import io.restassured.path.json.JsonPath;
-import io.restassured.response.Response;
 import org.apache.http.HttpStatus;
 import org.assertj.core.api.Assertions;
 import org.json.JSONObject;
 import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import pl.akademiaqa.dto.requests.CreateTaskRequestDto;
-import pl.akademiaqa.dto.requests.UpdateTaskRequestDto;
+import pl.akademiaqa.dto.task.requests.CreateTaskRequestDto;
 import pl.akademiaqa.requests.list.CreateListRequest;
 import pl.akademiaqa.requests.space.CreateSpaceRequest;
 import pl.akademiaqa.requests.space.DeleteSpaceRequest;

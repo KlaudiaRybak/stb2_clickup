@@ -1,4 +1,4 @@
-package pl.akademiaqa.dto.requests;
+package pl.akademiaqa.dto.task.requests;
 
 import lombok.Data;
 import org.json.JSONObject;

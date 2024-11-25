@@ -9,7 +9,7 @@ public class ClickUpProperties {
 
     public static String getToken(){
         return getProperty(TOKEN);
-    }               // 2.
+    }                                                                           // 2.
     public static String getTeamId(){                                           // 3.
         return getProperty(TEAM_ID);
     }

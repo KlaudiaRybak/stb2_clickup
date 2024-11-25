@@ -3,9 +3,8 @@ package pl.akademiaqa.requests.task;
 import io.restassured.response.Response;
 import org.apache.http.HttpStatus;
 import org.json.JSONObject;
-import pl.akademiaqa.dto.requests.CreateTaskRequestDto;
-import pl.akademiaqa.dto.response.CreateTaskResponseDto;
-import pl.akademiaqa.properties.ClickUpProperties;
+import pl.akademiaqa.dto.task.requests.CreateTaskRequestDto;
+import pl.akademiaqa.dto.task.response.CreateTaskResponseDto;
 import pl.akademiaqa.requests.BaseRequest;
 import pl.akademiaqa.url.ClickUpUrl;
 
